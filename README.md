@@ -324,24 +324,24 @@ CPU通过总线送到外设的数据后，命令一般需要经锁存器进行�
 
 在原理图绘制界面将电路设计完成之后，再将汇编语言源程序写入源代码界面，然后我们就可以点击“运行”按钮进行仿真了。这时，我们发现Proteus软件报错（红色部分），错误信息内容如下：
 
-* Invalid internal memory size == NULL ( Cheat mode)
-* Real Time Simulation failed to start.
+> Invalid internal memory size == NULL ( Cheat mode)
+> Real Time Simulation failed to start.
 
 ![](https://github.com/niwanli/Proteus/raw/master/pictures/0701.jpg "")
 
 错误信息提示说，“内存大小无效”、“实时仿真无法启动”。现在回到源代码界面，注释信息里有这样一句话：
 
-* Before starting simulation set Internal Memory Size in the 8086 model properties to 0x10000
+> Before starting simulation set Internal Memory Size in the 8086 model properties to 0x10000
 
 ![](https://github.com/niwanli/Proteus/raw/master/pictures/0702.jpg "")
 
 翻译过来就是：
 
-* 在开始仿真之前，将8086模型属性中的内部内存大小设置为0x10000
+> 在开始仿真之前，将8086模型属性中的内部内存大小设置为0x10000
 
 然后我们就去设置8086的内存大小吧，设置方法如下：
 
-　　
+
 （1）在原理图绘制界面，鼠标双击8086处理器，弹出 “编辑元件”窗口。
 
 ![](https://github.com/niwanli/Proteus/raw/master/pictures/0703.jpg "")
