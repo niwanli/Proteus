@@ -324,8 +324,7 @@ CPU通过总线送到外设的数据后，命令一般需要经锁存器进行�
 
 在原理图绘制界面将电路设计完成之后，再将汇编语言源程序写入源代码界面，然后我们就可以点击“运行”按钮进行仿真了。这时，我们发现Proteus软件报错（红色部分），错误信息内容如下：
 
-* Invalid internal memory size == NULL (
-* Cheat mode)
+* Invalid internal memory size == NULL ( Cheat mode)
 * Real Time Simulation failed to start.
 
 ![](https://github.com/niwanli/Proteus/raw/master/pictures/0701.jpg "")
