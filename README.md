@@ -70,10 +70,7 @@ Proteus 8.4版本软件的安装步骤如下：
 
 软件安装成功后，运行Proteus软件并打开工程后，就会看到如图2-1所示的窗口界面。为了方便介绍，图中标记了窗口内各部分中文说明。下面简单介绍个部分的功能。
 
-![](https://github.com/niwanli/Proteus/raw/master/pictures/0201.jpg)
-
-图 21  Proteus工作界面
-https://github.com/你的用户名/你的项目名/raw/分支名/存放图片的文件夹/该文件夹下的图片
+![](https://github.com/niwanli/Proteus/raw/master/pictures/0201.jpg "Proteus工作界面")
 
 ### 2.3.1  原理图编辑窗口
 
@@ -96,43 +93,43 @@ https://github.com/你的用户名/你的项目名/raw/分支名/存放图片的
 
 模型选择工具栏主要用于切换当前工作模式，在绘制原理图时，根据需要选择不同的模式。在不同的模式下，预览窗口和对象选择器会显示不同的内容。主要的以下6个常用模式工具的功能：
 
-（1）：选择模式，用于选择对象。
+（1）![](https://github.com/niwanli/Proteus/raw/master/pictures/image006.jpg "选择模式")：选择模式，用于选择对象。
 
-（2）：元器件选择模式，用于放置元器件以及进行元器件库管理。
+（2）![](https://github.com/niwanli/Proteus/raw/master/pictures/image008.jpg "元器件选择模式")：元器件选择模式，用于放置元器件以及进行元器件库管理。
 
-（3）：接电模式，用于放置连接点。
+（3）![](https://github.com/niwanli/Proteus/raw/master/pictures/image010.jpg "接点模式")：接点模式，用于放置连接点。
 
-（4）：网络标号模式，用于给导线或者总线分支放置标号。
+（4）![](https://github.com/niwanli/Proteus/raw/master/pictures/image012.jpg "网络标号模式")：网络标号模式，用于给导线或者总线分支放置标号。
 
-（5）：总线模式，用于绘制总线。
+（5）![](https://github.com/niwanli/Proteus/raw/master/pictures/image014.jpg "总线模式")：总线模式，用于绘制总线。
 
-（6）：终端模式，用于选择电源、地等8种终端。
+（6）![](https://github.com/niwanli/Proteus/raw/master/pictures/image016.jpg "终端模式")：终端模式，用于选择电源、地等8种终端。
  
 ###2.3.4  元件列表
 
-在点击“元件模式”按钮后，单击P按钮会打开“选择元器件”对话框。在对话框中进行关键字搜索可以找到你所需要的元器件（前提是Proteus的元器件库里面有该元器件的模型），选择了一个元器件后，单击“确认”按钮，该元器件就会在元件列表中显示。以后要用到该元件时，只需要在元件列表中选择即可。
+在点击“元件模式”按钮![](https://github.com/niwanli/Proteus/raw/master/pictures/image008.jpg "元器件选择模式")后，单击P按钮![](https://github.com/niwanli/Proteus/raw/master/pictures/image018.jpg "P按钮")会打开“选择元器件”对话框。在对话框中进行关键字搜索可以找到你所需要的元器件（前提是Proteus的元器件库里面有该元器件的模型），选择了一个元器件后，单击“确认”按钮，该元器件就会在元件列表中显示。以后要用到该元件时，只需要在元件列表中选择即可。
 
 ### 2.3.5  旋转/镜像控制按钮
 
 Proteus提供了选择、镜像控制按钮，用来改变对象选择器中选中对象的方向。旋转、镜像控制按钮的功能如下所示：
 
-（1）：选择按钮，用于将元器件进行90度的整数倍的旋转。
+（1）![](https://github.com/niwanli/Proteus/raw/master/pictures/image020.jpg "选择按钮")：选择按钮，用于将元器件进行90度的整数倍的旋转。
 
-（2）：水平镜像，用于将元器件进行水平镜像操作。
+（2）![](https://github.com/niwanli/Proteus/raw/master/pictures/image022.jpg "元水平镜像按钮")：水平镜像，用于将元器件进行水平镜像操作。
 
-（3）：垂直镜像，用于将元器件进行垂直镜像操作。
+（3）![](https://github.com/niwanli/Proteus/raw/master/pictures/image024.jpg "元垂直镜像按钮")：垂直镜像，用于将元器件进行垂直镜像操作。
 
 ### 2.3.6  仿真控制按钮
 
 用户可以通过仿真控制按钮来观测电路的各种状态和输出。仿真按钮主要用于交互式仿真过程中的实时控制，其按钮功能如下所示：
 
-（1）：运行按钮，点击后开始仿真，快捷键为Shift+F12。
+（1）![](https://github.com/niwanli/Proteus/raw/master/pictures/image026.jpg "运行按钮")：运行按钮，点击后开始仿真，快捷键为Shift+F12。
 
-（2）：单步运行，每点击一下，仿真进行一个步长的时间后停止。
+（2）![](https://github.com/niwanli/Proteus/raw/master/pictures/image028.jpg "单步运行按钮")：单步运行，每点击一下，仿真进行一个步长的时间后停止。
 
-（3）：暂停按钮，用于暂停交互仿真，也可以在单击暂停按钮后以单步形式继续仿真。
+（3）![](https://github.com/niwanli/Proteus/raw/master/pictures/image030.jpg "元暂停按钮")：暂停按钮，用于暂停交互仿真，也可以在单击暂停按钮后以单步形式继续仿真。
 
-（4）：停止按钮，用于停止当前仿真。
+（4）![](https://github.com/niwanli/Proteus/raw/master/pictures/image032.jpg "停止按钮")：停止按钮，用于停止当前仿真。
 
 ## 2.4  工程管理
 
@@ -144,15 +141,28 @@ Proteus提供了选择、镜像控制按钮，用来改变对象选择器中选�
 
 **步骤1**：鼠标单击“文件”菜单，选择“新建工程”
 
+![](https://github.com/niwanli/Proteus/raw/master/pictures/image033.jpg "")
+
 **步骤2**：在“新建工程向导：开始”里，修改“工程名称”和“工程路径”，并选择“新工程”按钮，然后单击“下一步”
+
+![](https://github.com/niwanli/Proteus/raw/master/pictures/image034.jpg "")
 
 **步骤3**：在“新建工程向导：Schematic Design”里，选择“DEFAULT”设计模板，然后单击“下一步”
 
+
+![](https://github.com/niwanli/Proteus/raw/master/pictures/image036.jpg "")
+
 **步骤4**：在“新建工程向导：PCB Layout”里，选择“不创建PCB布板设计”，然后单击“下一步”
+
+![](https://github.com/niwanli/Proteus/raw/master/pictures/image038.jpg "")
 
 **步骤5**：在“新建工程向导：Firmware”里，选择“创建固件项目”，系列选择8086，控制器选择8086，编译器选择MASM32，勾选“创建快速启动文件”，然后单击“下一步”
 
+![](https://github.com/niwanli/Proteus/raw/master/pictures/image040.jpg "")
+
 **步骤6**：在“新建工程向导：总结”里，确认各项信息之后，单击“完成”即可。
+
+![](https://github.com/niwanli/Proteus/raw/master/pictures/image042.jpg "")
 
 通过以上6个步骤，我们就建立好了一个新的工程项目，并且Proteus软件会自动弹出一个原理图绘制界面和一个源代码界面。接下来，我们就可以在原理图绘制界面里面进行硬件电路的设计，在源代码界面里面进行软件的设计了。
 
@@ -160,11 +170,13 @@ Proteus提供了选择、镜像控制按钮，用来改变对象选择器中选�
 
 打开工程和新建工程相比，操作要简单得多，只需要单击“文件”菜单，然后单击“打开工程”，最后找到已经建立好的工程所在位置，选中后单击“打开”即可。
 
+![](https://github.com/niwanli/Proteus/raw/master/pictures/image044.jpg "")
+
 图 22  打开工程文件
 
 ### 2.4.3  保存工程
 
-保存工程有两种方式，一种是直接单击保存按钮；另一种方式是先单击“文件”菜单，然后选择“保存工程即可”。
+保存工程有两种方式，一种是直接单击保存按钮![](https://github.com/niwanli/Proteus/raw/master/pictures/image046.jpg "保存按钮")；另一种方式是先单击“文件”菜单，然后选择“保存工程即可”。
 　　
 # 第3章   元件介绍
 
@@ -172,13 +184,13 @@ Proteus提供了选择、镜像控制按钮，用来改变对象选择器中选�
 
 74LS373是三态输出的八D锁存器，74LS373的输入端D0～D7 可以直接与总线相连。当三态允许控制端口OE为低电平，并且锁存允许端口LE为高电平时，Q端口的数据随D端口的数据变化而变化。
 
-图 31  地址锁存器74LS373
+![](https://github.com/niwanli/Proteus/raw/master/pictures/0301.jpg "")
 　　
 ## 3.2  3-8译码器74LS138
 
 74LS138为3线－8线译码器，当一个选通端E1为高电平，另两个选通端E2和E3为低电平时，可将地址端A、B、C的二进制编码在Y0至Y7对应的输出端以低电平译出。比如：当CBA=110时，Y6端输出低电平。
 
-图 32  译码器74LS138
+![](https://github.com/niwanli/Proteus/raw/master/pictures/0302.jpg "")
 　　
 ## 3.3  总线收发器74LS245
 
@@ -186,7 +198,7 @@ Proteus提供了选择、镜像控制按钮，用来改变对象选择器中选�
 
 74LS245有两个控制信号：控制数据传送方向的信号AB/BA和输出允许信号CE。当CE无效时，缓冲器呈现高阻状态，74LS245在两个方向上都不能传送数据。当CE有效，AB/BA为高电平时，A0~A7为输入端，实现A到B的数据传输；当CE有效，AB/BA为低电平时，B0~B7为输入端，实现B到A的数据传输。
 　　
-图 33  总线收发器74LS245
+![](https://github.com/niwanli/Proteus/raw/master/pictures/0303.jpg "")
 　　
 # 第4章   数据传送方式
 
@@ -195,7 +207,7 @@ CPU和外部设备之间的数据传送方式通常分为4种：无条件传送�
 
 无条件传送是指CPU不管外部设备的状态，在需要和外部设备交换信息的时候，就用输入指令或输出指令和外部设备交换信息。在这种方式下，CPU和外部设备之间只有数据信息的传送，没有状态信息的传送。接口电路也比较简单，只有数据通道，一般就只有输出锁存器和输入缓冲器。
 
-图 41  无条件传送方式
+![](https://github.com/niwanli/Proteus/raw/master/pictures/0401.jpg "")
 
 无条件传送主要用于外部设备总是处于准备好的状态，外部设备必须在微处理器限定的指令时间内准备就绪，并完成数据的接收或发送。为了保证数据传送的正确性，无条件传送方式常用于简单的外部设备控制。
 　　
@@ -222,9 +234,9 @@ CPU和外部设备之间的数据传送方式通常分为4种：无条件传送�
 
 ## 6.1  电路元件
 
-该电路中用到的仿真元件信息见表5-1。
+该电路中用到的仿真元件信息见表6-1。
 
-表 61  电路元件清单
+![](https://github.com/niwanli/Proteus/raw/master/pictures/0501.jpg "")
 
 ## 6.2  地址锁存模块
 
@@ -246,7 +258,7 @@ CPU和外部设备之间的数据传送方式通常分为4种：无条件传送�
 
 （4）最后，画出地址锁存373的输出信号A0到A15即可。
    
-　　图 61  地址锁存模块
+![](https://github.com/niwanli/Proteus/raw/master/pictures/0601.jpg "")
  
 ## 6.3  译码/片选模块
 
@@ -262,7 +274,7 @@ CPU和外部设备之间的数据传送方式通常分为4种：无条件传送�
 
 （3）最后，将138的输出信号Y0作为基本输入接口的片选信号，Y4作为基本输出接口的片选信号。
 
-图 62  译码/片选模块
+![](https://github.com/niwanli/Proteus/raw/master/pictures/0602.jpg "")
 
 ## 6.4  输入缓冲模块
 
@@ -282,7 +294,7 @@ CPU和外部设备之间的数据传送方式通常分为4种：无条件传送�
 
 （4）最后，将245的AB/BA口接地，使245始终处于输入状态。
 
-图 63  输入缓冲模块
+![](https://github.com/niwanli/Proteus/raw/master/pictures/0603.jpg "")
 
 ## 6.5  输出锁存模块
 
@@ -300,14 +312,16 @@ CPU通过总线送到外设的数据后，命令一般需要经锁存器进行�
 
 （4）最后，将245的AB/BA口高电平（+5V），使245始终处于输出状态。
 
-图 64  输出锁存模块
+![](https://github.com/niwanli/Proteus/raw/master/pictures/0604.jpg "")
+
 ## 6.6  代码设计
 
 本实验通过读取开关状态来控制LED的闪烁与否，流程图如图5-5所示。根据流程图编写相应的控制代码如附录二所示。
 
-图 65  程序
+![](https://github.com/niwanli/Proteus/raw/master/pictures/0605.jpg "")
 　　
 # 第7章  系统调试
+
 ## 7.1  仿真调试
 
 在原理图绘制界面将电路设计完成之后，再将汇编语言源程序写入源代码界面，然后我们就可以点击“运行”按钮进行仿真了。这时，我们发现Proteus软件报错（红色部分），错误信息内容如下：
@@ -316,13 +330,13 @@ CPU通过总线送到外设的数据后，命令一般需要经锁存器进行�
 * Cheat mode)
 * Real Time Simulation failed to start.
 
-图 71  仿真调试输出错误信息
+![](https://github.com/niwanli/Proteus/raw/master/pictures/0701.jpg "")
 
 错误信息提示说，“内存大小无效”、“实时仿真无法启动”。现在回到源代码界面，注释信息里有这样一句话：
 
 * Before starting simulation set Internal Memory Size in the 8086 model properties to 0x10000
 
-图 72  源代码界面的注释信息
+![](https://github.com/niwanli/Proteus/raw/master/pictures/0702.jpg "")
 
 翻译过来就是：
 
@@ -332,33 +346,33 @@ CPU通过总线送到外设的数据后，命令一般需要经锁存器进行�
 　　
 （1）在原理图绘制界面，鼠标双击8086处理器，弹出 “编辑元件”窗口。
 
-图 73  编辑元件窗口
+![](https://github.com/niwanli/Proteus/raw/master/pictures/0703.jpg "")
 　　
 （2）在“编辑元件”窗口，点击下拉菜单，选择Internal Memory Size，然后将其值设为0x10000，最后单击“确认”按钮即可。
 
-图 74  设置Internal Memory Size的值为0x10000
+![](https://github.com/niwanli/Proteus/raw/master/pictures/0704.jpg "")
 　　
 现在，我们再单击“运行”按钮，得到如图7-5所示结果，电路运行正常。然后，我们通过单击开关，来回切换开关状态，观察发光二极管的变化，即：某开关闭合，则点亮与该开关对应的发光二极管，如图7-6所示。
 
-图 75  电路运行图（没有开关闭合）
+![](https://github.com/niwanli/Proteus/raw/master/pictures/0705.jpg "")
 
-图 76  电路运行图（有开关闭合）
+![](https://github.com/niwanli/Proteus/raw/master/pictures/0706.jpg "")
 
 ## 7.2  单步调试
 
 在源程序调试窗口，单击“单步运行”按钮。选择菜单“调试”下的“Register”选项，然后就可以从打开的寄存器窗口中看到执行到断点处的寄存器的值。
 
-图 77  8086源代码窗口
+![](https://github.com/niwanli/Proteus/raw/master/pictures/0707.jpg "")
 　　
 在“调试”菜单下有一系列的调试键，但是多数时候用F11键来单步运行程序。按一次F11键，左边的红色箭头下将移到下一条指令。通过观察寄存器窗口的寄存器的变化，来监测指令的运行情况。
 
-图 78  8086寄存器窗口
+![](https://github.com/niwanli/Proteus/raw/master/pictures/0708.jpg "")
 　　
 # 附录一  Proteus完整制图
 
-附录1  Proteus完整制图（黑白）
+![](https://github.com/niwanli/Proteus/raw/master/pictures/0801.jpg "")
 
-附录2  Proteus完整制图（彩色）
+![](https://github.com/niwanli/Proteus/raw/master/pictures/0802.jpg "")
 
 # 附录二  汇编语言源程序
 
