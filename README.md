@@ -141,28 +141,28 @@ Proteus提供了选择、镜像控制按钮，用来改变对象选择器中选�
 
 **步骤1**：鼠标单击“文件”菜单，选择“新建工程”
 
-![](https://github.com/niwanli/Proteus/raw/master/pictures/image033 "")
+![](https://github.com/niwanli/Proteus/raw/master/pictures/image033.png "")
 
 **步骤2**：在“新建工程向导：开始”里，修改“工程名称”和“工程路径”，并选择“新工程”按钮，然后单击“下一步”
 
-![](https://github.com/niwanli/Proteus/raw/master/pictures/image034 "")
+![](https://github.com/niwanli/Proteus/raw/master/pictures/image034.png "")
 
 **步骤3**：在“新建工程向导：Schematic Design”里，选择“DEFAULT”设计模板，然后单击“下一步”
 
 
-![](https://github.com/niwanli/Proteus/raw/master/pictures/image036 "")
+![](https://github.com/niwanli/Proteus/raw/master/pictures/image036.png "")
 
 **步骤4**：在“新建工程向导：PCB Layout”里，选择“不创建PCB布板设计”，然后单击“下一步”
 
-![](https://github.com/niwanli/Proteus/raw/master/pictures/image038 "")
+![](https://github.com/niwanli/Proteus/raw/master/pictures/image038.png "")
 
 **步骤5**：在“新建工程向导：Firmware”里，选择“创建固件项目”，系列选择8086，控制器选择8086，编译器选择MASM32，勾选“创建快速启动文件”，然后单击“下一步”
 
-![](https://github.com/niwanli/Proteus/raw/master/pictures/image040 "")
+![](https://github.com/niwanli/Proteus/raw/master/pictures/image040.png "")
 
 **步骤6**：在“新建工程向导：总结”里，确认各项信息之后，单击“完成”即可。
 
-![](https://github.com/niwanli/Proteus/raw/master/pictures/image042 "")
+![](https://github.com/niwanli/Proteus/raw/master/pictures/image042.png "")
 
 通过以上6个步骤，我们就建立好了一个新的工程项目，并且Proteus软件会自动弹出一个原理图绘制界面和一个源代码界面。接下来，我们就可以在原理图绘制界面里面进行硬件电路的设计，在源代码界面里面进行软件的设计了。
 
@@ -170,13 +170,13 @@ Proteus提供了选择、镜像控制按钮，用来改变对象选择器中选�
 
 打开工程和新建工程相比，操作要简单得多，只需要单击“文件”菜单，然后单击“打开工程”，最后找到已经建立好的工程所在位置，选中后单击“打开”即可。
 
-![](https://github.com/niwanli/Proteus/raw/master/pictures/image044 "")
+![](https://github.com/niwanli/Proteus/raw/master/pictures/image044.png "")
 
 图 22  打开工程文件
 
 ### 2.4.3  保存工程
 
-保存工程有两种方式，一种是直接单击保存按钮![](https://github.com/niwanli/Proteus/raw/master/pictures/image046 "保存按钮")；另一种方式是先单击“文件”菜单，然后选择“保存工程即可”。
+保存工程有两种方式，一种是直接单击保存按钮![](https://github.com/niwanli/Proteus/raw/master/pictures/image046.png "保存按钮")；另一种方式是先单击“文件”菜单，然后选择“保存工程即可”。
 　　
 # 第3章   元件介绍
 
