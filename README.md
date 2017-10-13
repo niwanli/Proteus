@@ -183,6 +183,12 @@ Proteus提供了选择、镜像控制按钮，用来改变对象选择器中选�
 74LS373是三态输出的八D锁存器，74LS373的输入端D0～D7 可以直接与总线相连。当三态允许控制端口OE为低电平，并且锁存允许端口LE为高电平时，Q端口的数据随D端口的数据变化而变化。
 
 ![](https://github.com/niwanli/Proteus/raw/master/pictures/0301.jpg "")
+
+OE为输出允许端。当OE为低电平0时，三态门打开；当OE为高电平1时，三态门关闭，Di输出呈高阻状态。
+
+LE为锁存允许端。当LE为高电平1时，锁存器输出端Qi同输入端Di；当LE由高电平1变为低电平0时（下降沿有效），数据输入锁存器中。
+
+![](https://github.com/niwanli/Proteus/raw/master/pictures/74LS373.png "")
 　　
 ## 3.2  3-8译码器74LS138
 
@@ -190,6 +196,12 @@ Proteus提供了选择、镜像控制按钮，用来改变对象选择器中选�
 
 ![](https://github.com/niwanli/Proteus/raw/master/pictures/0302.jpg "")
 　　
+E1、E2和E3为地址选通端：E1高电平有效，E2和E3低电平有效。
+
+A、B和C为地址输入端：A、B和C对应Y0 - Y7；A、B和C以二进制形式输入，然后转换成十进制，对应相应Yi输出为低电平，其他均输出高电平。
+
+![](https://github.com/niwanli/Proteus/raw/master/pictures/74LS138.png "")
+
 ## 3.3  总线收发器74LS245
 
 74LS245是常用的芯片，用来驱动LED或者其他的设备，它是一种具有三态输出的8位同相双向总线收发器，可双向传输数据。
@@ -197,6 +209,12 @@ Proteus提供了选择、镜像控制按钮，用来改变对象选择器中选�
 74LS245有两个控制信号：控制数据传送方向的信号AB/BA和输出允许信号CE。当CE无效时，缓冲器呈现高阻状态，74LS245在两个方向上都不能传送数据。当CE有效，AB/BA为高电平时，A0-A7为输入端，实现A到B的数据传输；当CE有效，AB/BA为低电平时，B0-B7为输入端，实现B到A的数据传输。
 　　
 ![](https://github.com/niwanli/Proteus/raw/master/pictures/0303.jpg "")
+
+CE为片选端：当CE为低电平0时，Ai和Bi上才有数据传输；当CE为高电平1时，Ai和Bi均为高阻态。
+
+AB/BA为方向端口：当AB/BA为高电平1时，数据由Ai向Bi传输；当AB/BA为低电平0时，数据由Bi向Ai传输。
+
+![](https://github.com/niwanli/Proteus/raw/master/pictures/74LS245.png "")
 　　
 # 第4章   数据传送方式
 
@@ -388,6 +406,16 @@ START:
 CODE    ENDS
         END START
 ```
+
+# 参考资料
+
+[1] 田辉主编. 微机原理与接口技术[M]. 北京：高等教育出版社，2015.
+
+[2] 刘德全编著. Proteus 8：电子线路设计与仿真[M]. 北京：清华大学出版社，2014.
+
+[3] 顾晖，陈越，梁惺彦主编. 微机原理与接口技术：基于8086和Proteus仿真[M]. 北京：电子工艺出版社，2015.
+
+[4] 微机原理与接口技术：基于Proteus仿真的8086微机系统设计及应用学习指导[M]. 北京：清华大学出版社，2015. 
 
 ## Open the Door
 
